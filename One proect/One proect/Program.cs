@@ -20,8 +20,18 @@ namespace One_proect
 
                 foreach (int i in mas)//Распечатываем значение элементов массива
                 Console.WriteLine(i);
+            for (int i = 0; i < 3 ; i++)//Объявляем цикл для заполнения массива смсками
+            {
+
+                i = Convert.ToInt32(Console.ReadLine());
+                mas[i]++;
+            }
+
+            foreach (int i in mas)//Распечатываем значение элементов массива
+                Console.WriteLine(i);
             Console.ReadKey();
         }
-                
-    }
+                 
+            
+}
 }
